@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* header  */
+.outer-container {
+    border: 3px solid black;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+header {
+    background-color: bisque;
+    position: relative;
+    overflow: auto;
+}
+
+#logo {max-width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#logo-title{
+
+    font-family: "Bebas Neue"; 
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+    letter-spacing: 7px;
+   
+}
+
+@media screen and (max-width) {
+    #logo {/*  display: none; */ 
+        position: relative;
+        margin-left: 35%;}
+}
+
+nav {text-align: center;
+border-top: 2px solid black;
+border-bottom:2px solid black ;
+background-color: white;
+}
+
+nav ul li {
+    display: inline;
+    font-family: "Bebas Neue";
+    font-size: 36px;
+    padding-right: 40px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+/* INTRO AREA */
+
+.intro-container{
+    background-color: khaki;
+    overflow: auto;
+}
+
+.image-container  {
+    max-width: 600px;
+    margin: 0;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.intro-text {
+    max-width: 600px;
+    margin: 0;
+    float: left;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.intro-image {border-radius: 50%;
+max-width: 100%;
+height: auto;
+border: 6px solid black;
+}
+/* FOOTER AREA */
+footer { background-color: bisque;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/* GALLERY AREA */
+
+.Gallery-container {
+    overflow: auto;
+    background-color: khaki;
+}
+.gallery-image {
+    width: 25%;
+    height: 220px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 5px solid black;
+    outline-offset: -10px;
+}
+
+@media screen and (max-width: 920px) {
+  .gallery-image {
+      width: 33%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .gallery-image {
+        width: 50%;
+      }
+  }
