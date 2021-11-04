@@ -3,7 +3,7 @@
 
 /* header  */
 .outer-container {
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: bisque;
+    background-color: rgb(251, 255, 0);
     position: relative;
     overflow: auto;
 }
@@ -58,13 +58,13 @@ a {
 }
 
 a:hover {
-    color: hotpink;
+    color: rgb(251, 255, 0);
 }
 
 /* INTRO AREA */
 
 .intro-container{
-    background-color: khaki;
+    background-color: rgb(255, 251, 0);
     overflow: auto;
 }
 
@@ -90,7 +90,7 @@ height: auto;
 border: 6px solid black;
 }
 /* FOOTER AREA */
-footer { background-color: bisque;
+footer { background-color: rgb(255, 140, 0);
     padding-top: 14px;
     padding-bottom: 14px;
 }
@@ -105,7 +105,7 @@ footer p {
 
 .Gallery-container {
     overflow: auto;
-    background-color: khaki;
+    background-color: rgb(255, 230, 0);
 }
 .gallery-image {
     width: 25%;
@@ -128,3 +128,11 @@ footer p {
         width: 50%;
       }
   }
+
+.about-text {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
